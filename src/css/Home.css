@@ -1,0 +1,82 @@
+.container {
+    max-width: 960px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  .title {
+    text-align: center;
+    margin-bottom: 40px;
+  }
+  
+  .hero {
+    background-color: #f2f2f2;
+    padding: 40px;
+    margin-bottom: 40px;
+    display: flex;
+    align-items: center;
+    position: relative;
+    height: 340px;
+  }
+  
+  .hero-content {
+    width: 50%;
+  }
+  
+  .hero-title {
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  
+  .hero-description {
+    font-size: 18px;
+    margin-bottom: 20px;
+  }
+  
+  .hero-button {
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px 20px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .hero-image {
+    width: auto;
+    height: 100%;
+    position: absolute;
+    right: 0;
+    top: 0;
+    opacity: 0; /* Initially hide the image */
+    animation: fadeIn 1s ease-in forwards; /* Apply the fade-in animation */
+  }
+  
+  @keyframes fadeIn {
+    0% {
+      opacity: 0;
+    }
+    100% {
+      opacity: 1;
+    }
+  }
+  
+  .services-title {
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  
+  .service-card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  
+  .service-image {
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 50%;
+    margin-bottom: 10px;
+  }

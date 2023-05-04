@@ -1,0 +1,34 @@
+.navbar {
+    background-color: #f2f2f2;
+    padding: 10px;
+  }
+  
+  .navbar ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .navbar ul li {
+    display: inline-block;
+    margin-right: 10px;
+  }
+  
+  .navbar ul li a {
+    text-decoration: none;
+    color: #333;
+    padding: 5px 10px;
+  }
+
+  .navbar ul .login_btn {
+   float: right;
+  }
+  
+  .navbar ul .logout {
+    float: right;
+   }
+  .navbar ul li a:hover {
+    color: #000;
+    background-color: #e6e6e6;
+  }
+  
